@@ -1,4 +1,4 @@
-module github.com/hbstack/theme
+module github.com/creatoy/my_site
 
 go 1.19
 
@@ -47,7 +47,7 @@ require (
 	github.com/hbstack/progress-bar v0.1.0 // indirect
 	github.com/hbstack/pwa v0.1.2 // indirect
 	github.com/hbstack/scrollbar v0.1.0 // indirect
-	github.com/hbstack/search v0.1.6 // indirect
+	github.com/hbstack/search v0.1.7 // indirect
 	github.com/hbstack/syntax-highlighting v0.1.0 // indirect
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.0 // indirect
 	github.com/hugomods/bootstrap v0.4.0 // indirect

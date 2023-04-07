@@ -1,5 +1,5 @@
 ---
-title: HB Theme Template
+title: My Blog
 # menu:
 #   main:
 #     name: Home

@@ -1,0 +1,69 @@
+main:
+  - name: 建议/反馈
+    identifier: support
+    weight: 100
+    url: https://github.com/creatoy
+    params:
+      header: 我的 github 首页。
+      icon:
+        vendor: font-awesome-solid
+        name: headset
+
+  - name: GitHub
+    parent: support
+    url: https://github.com/creatoy/my_site
+    weight: 1
+    params:
+      icon:
+        vendor: fab
+        name: github
+      description: 本站点仓库。
+
+  - name: 讨论
+    parent: support
+    url: https://github.com/creatoy/my_site/discussions
+    weight: 2
+    params:
+      icon:
+        vendor: font-awesome-regular
+        name: comments
+        color: green
+      description: 提问题和分享你的想法。
+
+  - name: Bug 反馈
+    parent: support
+    url: https://github.com/creatoy/my_site/issues/new
+    weight: 3
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: bug
+        color: red
+      description: 反馈错误或问题。
+
+  # - name: Sponsor
+  #   identifier: sponsor
+  #   parent: support
+  #   weight: 10
+  #   params:
+  #     divider: true
+
+  # - name: PayPal
+  #   weight: 11
+  #   parent: support
+  #   url: https://paypal.me/creatoy
+  #   params:
+  #     description: 通过 PayPal 赞助。
+  #     icon:
+  #       vendor: simple-icons
+  #       name: paypal
+
+  # - name: 爱发电
+  #   weight: 12
+  #   parent: support
+  #   url: https://afdian.net/a/creatoy
+  #   params:
+  #     description: 通过爱发电赞助。
+  #     icon:
+  #       vendor: simple-icons
+  #       name: githubsponsors

@@ -1,9 +1,11 @@
-baseURL: https://hb-theme.hugomods.com/
-title: HB Theme Template
+baseURL: https://creatio.top/
+title: My personal blog site.
 # Copyright, the {year} is the placeholder of this year.
-copyright: "Copyright © 2022-{year} [Hugo Modules](https://hugomods.com) and [Hugo Bootstrap Framework](https://hb.hugomods.com). All Rights Reserved."
-defaultContentLanguage: en
-defaultContentLanguageInSubdir: true # disable this to remove the default language code from URL, i.e. /en/docs -> /docs. 
+copyright: "Copyright © 2022-{year} [creatoy](https://creatio.top). All Rights Reserved."
+defaultContentLanguage: zh-cn
+defaultContentLanguageInSubdir: false # disable this to remove the default language code from URL, i.e. /en/docs -> /docs. 
+disableLanguages:
+  - "en"
 disqusShortname: hb-site
 enableRobotsTXT: true
 

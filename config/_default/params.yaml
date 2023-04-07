@@ -1,43 +1,43 @@
-description: The starter theme template of HB (Hugo Bootstrap) Framework.
+description: 
 
 hb:
-  header:
-    brand: HB # the brand name, leave it empty to use site's title.
-    logo_bg: '#712cf9' # logo background color, used by logo with transparent background.
-    socials:
-      github: hbstack
-      kofi: razonyang
-      paypal: razonyang
-      twitter: razonyang
-      mastodon: razonyang
-  footer:
-    socials:
-      github: hbstack
-      kofi: razonyang
-      paypal: razonyang
-      twitter: razonyang
-      mastodon: razonyang
+  # header:
+  #   brand: # the brand name, leave it empty to use site's title.
+  #   logo_bg: '#712cf9' # logo background color, used by logo with transparent background.
+  #   socials:
+  #     github: creatoy
+  #     kofi: creatoy
+  #     paypal: creatoy
+  #     twitter: creatoy
+  #     mastodon: creatoy
+  # footer:
+  #   socials:
+  #     github: creatoy
+  #     kofi: creatoy
+  #     paypal: creatoy
+  #     twitter: creatoy
+  #     mastodon: creatoy
   blog:
     paginate: 12 # paginate.
     home: # homepage settings.
       featured_posts: 5 # the number of the featured posts.
       main_sections: # leave it empty to include all regular pages.
         - docs
-        - blog
         - tutorials
+        - blog
     giscus:
-      repo: hbstack/theme
-      repo_id: R_kgDOJP3qtA
-      category_id: DIC_kwDOJP3qtM4CVavM
+      repo: creatoy/my_site
+      repo_id: R_kgDOJUHtPg
+      category_id: DIC_kwDOJUHtPs4CVoBO
   docs:
     giscus:
-      repo: hbstack/theme
-      repo_id: R_kgDOJP3qtA
-      category_id: DIC_kwDOJP3qtM4CVavM
+      repo: creatoy/my_site
+      repo_id: R_kgDOJUHtPg
+      category_id: DIC_kwDOJUHtPs4CVoBO
   content_panel:
     repo:
       service: github # github or gitlab.
-      repo: hbstack/theme
+      repo: creatoy/my_site
       branch: main
       # subpath: exampleSite
 
