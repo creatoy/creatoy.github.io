@@ -1,11 +1,11 @@
 ---
 date: 2022-09-04T22:42:23+08:00
-title: Install on Arch Linux
+title: 安装到 Arch Linux
 linkTitle: Arch Linux
 series:
-  - Guide
+  - 指南
 categories:
-  - Installation
+  - 安装
 tags:
   - Linux
   - Arch Linux

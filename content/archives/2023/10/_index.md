@@ -1,3 +1,3 @@
 ---
-title: Oct
+title: 十月
 ---

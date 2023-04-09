@@ -1,20 +1,20 @@
 ---
-title: "Landing Page Example"
+title: "落地页示例"
 date: 2023-04-06T01:44:59+08:00
 draft: false
 layout: landing
 ---
 
-# Landing Page Example
+# 落地页示例
 
-This theme offers a simple landing page layout which consist of three parts: header, body and footer, the body is the content itself.
+本主题提供一个简单的落地页布局，其由三部分组成：头部，主体和尾部，主体为内容其本身。
 
-## How to Use it?
+## 怎么使用？
 
-Specify the `layout` as `landing` on the front matter.
+于内容前言中指定 `layout` 为 `landing`。
 
 {{< bs/config-toggle >}}
 layout: landing
 {{< /bs/config-toggle >}}
 
-And then writing the content.
+然后编写内容即可。

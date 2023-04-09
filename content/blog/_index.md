@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: 博客
 menu:
   main:
     identifier: blog

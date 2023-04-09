@@ -1,11 +1,11 @@
 ---
 date: 2022-10-16T22:42:23+08:00
-title: Install on Ubuntu
+title: 安装到 Ubuntu
 linkTitle: Ubuntu
 series:
-  - Guide
+  - 指南
 categories:
-  - Installation
+  - 安装
 tags:
   - Linux
   - Ubuntu

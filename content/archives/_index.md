@@ -1,5 +1,5 @@
 ---
-title: Archives
+title: 归档
 menu:
   main:
     parent: blog
@@ -7,6 +7,6 @@ menu:
       icon:
         vendor: bs
         name: archive
-        className: text-primary-emphasis
-      description: Posts archive.
+        color: '384955'
+      description: 文章归档。
 ---

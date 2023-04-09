@@ -1,7 +1,8 @@
 ---
-title: Docs
+title: 学习
 menu:
   main:
+    identifier: study
     weight: 1
     params:
       icon:

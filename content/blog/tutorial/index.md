@@ -1,5 +1,5 @@
 ---
-title: "Tutorial"
+title: "指南"
 # linkTitle:
 date: 2023-03-31T11:47:31+08:00
 draft: false
@@ -40,54 +40,54 @@ A simple tutorial that offers samples and code snippets show how to create rich 
 
 <!--more-->
 
-## Installation
+## 安装
 
 Please check out the [installation](https://hb.hugomods.com/en/docs/getting-started/installation) section.
 
-### Install Dependencies
+### 安装依赖
 
 ```sh
 npm ci
 ```
 
-Or install globally.
+或者全局安装。
 
 ```sh
 sudo npm i -g postcss-cli @fullhuman/postcss-purgecss autoprefixer rtlcss
 ```
 
-The later is best for multiple HB sites, since it's required to executed once. Both of them are valid, choose the one you like.
+后者最适合多个 HB 站点，因为它需要执行一次。两个都成立，选一个你喜欢的。
 
-### Start Hugo Server
+### 启动 Hugo 服务器
 
 ```sh
 npm run dev
 ```
 
-Now you can access the site via http://localhost:1313.
+现在可以通过 http://localhost:1313 访问站点。
 
 {{< bootstrap/alert >}}
 {{% markdownify %}}
-This template predefined a script **npm run prod** for previewing the site on production mode, which can be accessed on http://localhost:1314.
+该模板预定义了一个 **npm run prod** 脚本，用于预览生产环境的站点，其可以通过 http://localhost:1314 进行访问。
 {{% /markdownify %}}
 {{< /bootstrap/alert >}}
 
-## Create Content
+## 新增内容
 
 ```sh
 hugo new blog/new-post/index.md
 ```
 
-The created content is in draft stage, you'll need to publish the content by removing the `draft` or setting the `draft` as `true` on front matter.
+新创建的内容处于草稿状态，发布时需要移除 `draft`参数或者将其设为 `false`。
 
 {{< bootstrap/alert >}}
 {{% markdownify %}}
-To preview the drafts, please use the `--buildDrafts` (`-D`) flag on `hugo server`, such as `hugo server --gc -D --disableFastRender`.
-> **npm run dev** will build drafts by default.
+请指定  `--buildDrafts` (`-D`) 标识以预览草稿，如 `hugo server --gc -D --disableFastRender`。
+> **npm run dev**  默认会构建草稿内容。
 {{% /markdownify %}}
 {{< /bootstrap/alert >}}
 
-## Code Block
+## 代码块
 
 ````markdown
 ```[lang]
@@ -96,18 +96,18 @@ CODE
 ````
 
 {{% bootstrap/collapse "[lang]" %}}
-Replace `[lang]` with corresponding language identifier, such as `js`, `php`, `go`, `html` and so on.
+请将 `[lang]` 替换为对应的语言标识，如 `js`、`php`、`go`、`html` 等。
 {{% /bootstrap/collapse %}}
 
 ```js
 console.log('Hello world!')
 ```
 
-### Code Syntax Highlighting Styles
+### 代码高亮样式
 
-HB offers dozens of syntax highlighting styles, find more on [syntax highlighting styles modules](https://hb.hugomods.com/en/docs/modules/syntax-highlighting/).
+HB 提供了数十个代码高亮样式，详情请参阅[代码高亮样式模块](https://hb.hugomods.com/en/docs/modules/syntax-highlighting/)。
 
-Import the desired style module and restart the Hugo server (load module's assets fully) to preview.
+导入对应的样式模块，并重启 Hugo 服务器以完整地载入模块的资源。
 
 {{< bootstrap/config-toggle hugo >}}
 module:
@@ -147,9 +147,9 @@ graph TD;
 
 Read more on [Mermaid Usage](https://hugomods.com/en/docs/content/mermaid/#usage).
 
-## Shortcodes
+## 短代码
 
-In addition to Hugo built-in shortcodes, HB integrated the [Bootstrap](https://hugomods.com/en/docs/bootstrap/) module, which ships several useful shortcodes:
+除了 Hugo 内置的短代码外，HB 集成了 [Bootstrap](https://hugomods.com/en/docs/bootstrap/) 模块，其提供了一些使用的短代码。
 
 - [Alert Shortcode](https://hugomods.com/en/docs/bootstrap/alert/).
 - [Clearfix Shortcode](https://hugomods.com/en/docs/bootstrap/clearfix/).

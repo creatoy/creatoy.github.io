@@ -1,11 +1,11 @@
 ---
 date: 2022-09-06T22:42:23+08:00
-title: Install on Windows
+title: 安装到 Windows 系统
 linkTitle: Windows
 series: 
-  - Guide
+  - 指南
 categories:
-  - Installation
+  - 安装
 tags:
   - Windows
 images:
