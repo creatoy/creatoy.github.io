@@ -4,8 +4,6 @@ title: My personal blog site.
 copyright: "Copyright © 2022-{year} [creatoy](https://creatio.top). All Rights Reserved."
 disqusShortname: hb-site
 enableRobotsTXT: true
-defaultContentLanguage: en
-defaultContentLanguageInSubdir: false
 
 permalinks:
   blog: /blog/:year/:month/:title
