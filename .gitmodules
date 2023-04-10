@@ -1,3 +1,3 @@
 [submodule "content/blog/rcore_study"]
 	path = content/docs/rcore_study
-	url = https://github.com/creatoy/rcore_study
+	url = git@github.com:creatoy/rcore_study.git

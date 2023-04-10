@@ -11,7 +11,7 @@ main:
 
   - name: GitHub
     parent: support
-    url: https://github.com/creatoy/my_site
+    url: https://github.com/creatoy/creatoy.github.io
     weight: 1
     params:
       icon:
@@ -21,7 +21,7 @@ main:
 
   - name: 讨论
     parent: support
-    url: https://github.com/creatoy/my_site/discussions
+    url: https://github.com/creatoy/creatoy.github.io/discussions
     weight: 2
     params:
       icon:
@@ -32,7 +32,7 @@ main:
 
   - name: Bug 反馈
     parent: support
-    url: https://github.com/creatoy/my_site/issues/new
+    url: https://github.com/creatoy/creatoy.github.io/issues/new
     weight: 3
     params:
       icon:

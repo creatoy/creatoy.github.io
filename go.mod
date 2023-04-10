@@ -1,4 +1,4 @@
-module github.com/creatoy/my_site
+module github.com/creatoy/creatoy.github.io
 
 go 1.19
 

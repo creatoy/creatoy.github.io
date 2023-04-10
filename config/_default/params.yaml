@@ -26,18 +26,18 @@ hb:
         - tutorials
         - blog
     giscus:
-      repo: creatoy/my_site
+      repo: creatoy/creatoy.github.io
       repo_id: R_kgDOJUHtPg
       category_id: DIC_kwDOJUHtPs4CVoBO
   docs:
     giscus:
-      repo: creatoy/my_site
+      repo: creatoy/creatoy.github.io
       repo_id: R_kgDOJUHtPg
       category_id: DIC_kwDOJUHtPs4CVoBO
   content_panel:
     repo:
       service: github # github or gitlab.
-      repo: creatoy/my_site
+      repo: creatoy/creatoy.github.io
       branch: main
       # subpath: exampleSite
 
